@@ -144,30 +144,30 @@ class BaseQuizActivityTest {
     // Instructor Tests that advance to the report activity
     // ==========================================================
 //
-//    @Test
-//    fun all4QuestionsCorrectNoHints() {
-//        onView(withId(R.id.answer_0_button))
-//            .perform(click())
-//        onView(withId(R.id.submit_button))
-//            .perform(click())
-//        onView(withId(R.id.answer_1_button))
-//            .perform(click())
-//        onView(withId(R.id.submit_button))
-//            .perform(click())
-//        onView(withId(R.id.answer_2_button))
-//            .perform(click())
-//        onView(withId(R.id.submit_button))
-//            .perform(click())
-//        onView(withId(R.id.answer_3_button))
-//            .perform(click())
-//        onView(withId(R.id.submit_button))
-//            .perform(click())
-//        // you should now be in the report activity
-//        onView(withId(R.id.total_questions_value))
-//            .check(matches(withText("4")))
-//        onView(withId(R.id.total_correct_value))
-//            .check(matches(withText("4")))
-//        onView(withId(R.id.hints_used_value))
-//            .check(matches(withText("0")))
-//    }
+    @Test
+    fun all4QuestionsCorrectNoHints() {
+        onView(withId(R.id.answer_0_button))
+            .perform(click())
+        onView(withId(R.id.submit_button))
+            .perform(click())
+        onView(withId(R.id.answer_1_button))
+            .perform(click())
+        onView(withId(R.id.submit_button))
+            .perform(click())
+        onView(withId(R.id.answer_2_button))
+            .perform(click())
+        onView(withId(R.id.submit_button))
+            .perform(click())
+        onView(withId(R.id.answer_3_button))
+            .perform(click())
+        onView(withId(R.id.submit_button))
+            .perform(click())
+        // you should now be in the report activity
+        onView(withId(R.id.total_questions_value))
+            .check(matches(withText("4")))
+        onView(withId(R.id.total_correct_value))
+            .check(matches(withText("4")))
+        onView(withId(R.id.hints_used_value))
+            .check(matches(withText("0")))
+    }
 }

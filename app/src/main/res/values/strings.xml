@@ -1,16 +1,29 @@
 <resources>
-    <string name="app_name">AnswerButton</string>
+    <string name="app_name">MultiQuiz</string>
     <string name="australia_question">What is the capital of Australia?</string>
-    <string name="australia_answer_brisbane">Brisbane</string>
-    <string name="australia_answer_canberra">Canberra</string>
+    <string name="australia_answer_brisbane">Canberra</string>
+    <string name="australia_answer_canberra">Brisbane</string>
     <string name="australia_answer_perth">Perth</string>
-    <string name="australia_answer_sidney">Sidney</string>
+    <string name="australia_answer_sydney">Sydney</string>
     <string name="hint_button_text">Hint</string>
     <string name="submit_button_text">Submit</string>
     <string name="reset_button_text">Reset</string>
     <string name="math_question">2+2=?</string>
-    <string name="math_answer_1">1</string>
-    <string name="math_answer_2">2</string>
+    <string name="math_answer_1">2</string>
+    <string name="math_answer_2">4</string>
     <string name="math_answer_3">3</string>
-    <string name="math_answer_4">4</string>
+    <string name="math_answer_4">9</string>
+    <string name="taiwan_question">What is the capital of Taiwan?</string>
+    <string name="taiwan_answer_keelung">Keelung</string>
+    <string name="taiwan_answer_tainan">Tainan</string>
+    <string name="taiwan_answer_taipei">Taipei</string>
+    <string name="taiwan_answer_taichung">Taichung</string>
+    <string name="china_question">What is the capital of China?</string>
+    <string name="china_answer_shanghai">Shanghai</string>
+    <string name="china_answer_hongkong">Hong Kong</string>
+    <string name="china_answer_wuhan">Wuhan</string>
+    <string name="china_answer_beijing">Beijing</string>
+    <string name="total_question">Total Question:</string>
+    <string name="total_correct">Total Correct:</string>
+    <string name="total_hint">Hints used:</string>
 </resources>
